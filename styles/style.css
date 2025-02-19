@@ -1,10 +1,14 @@
 /*root sets colors and fonts to a variable that can be easily used through out your stylesheet using var(--name);*/
 :root {
     --text-color: ...;
-    --bg-color: ...;
+    --bg-color: green;
     --primart-color: ...;
     --secondary-color: ...;
     --accent-color: ...;
     --font-family: ...;
+}
+
+.body{
+    background-color: var(--bg-color);
 }
 
